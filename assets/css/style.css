@@ -1,0 +1,44 @@
+.badge-item {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    width: 200px;
+}
+
+.badge-item img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.badge-item h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.badge-item p {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin: 5px 0 0;
+}
+
+.level-badge {
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.bronze { background: #cd7f32; color: white; }
+.silver { background: #c0c0c0; color: white; }
+.gold { background: #ffd700; color: black; }
+.platinum { background: #e5e4e2; color: black; }
+.diamond { background: #b9f2ff; color: black; } 
